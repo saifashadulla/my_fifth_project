@@ -26,7 +26,7 @@
 
 ---
 
-### 2. Main Section
+### 3. Main Section
 
 This Section will have layout as figma
 
