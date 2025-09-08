@@ -26,17 +26,17 @@
 
         <div class="flex">
             <div class="w-[135px] h-[52px] items-center flex">
-                <p class="font-bold">0</p>
+                <p id="favCount" class="font-bold">0</p>
                 <img class="w-[26px] h-[23px] ml-3" src="./assets/heart.png" alt="">
             </div>
             
             <div class="w-[135px] h-[52px] items-center flex">
-                <p class="font-bold ">100</p>
+                <p id="coinBalance" class="font-bold ">100</p>
                 <img class="w-[26px] h-[23px] ml-3" src="./assets/coin.png" alt="">
             </div>
             
             <div class="w-[135px] h-[52px] bg-[#00A63E] justify-center items-center flex rounded-full">
-                <h1 class="text-white"> <span>2</span> Copy</h1>
+                <h1 class=" text-white"> <span>2</span> Copy</h1>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
             <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">National Emergency Number</h1>
@@ -71,9 +71,9 @@
                     <p class="text-[#5C5C5C]">All</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class=" bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn   bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="999" data-name="National Emergency Number"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
        <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/police.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Police Helpline Number</h1>
@@ -92,9 +92,9 @@
                     <p class="text-[#5C5C5C]">Police</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn  bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="999" data-name="Police Helpline Number"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
           <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/fire-service.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Fire Service Number </h1>
@@ -114,9 +114,9 @@
                     <p class="text-[#5C5C5C]">Fire</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn  bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="999" data-name="Fire Service Number "><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
              <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Ambulance Servicer</h1>
@@ -137,9 +137,9 @@
                     <p class="text-[#5C5C5C]">Health</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn  bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="1994-999999" data-name="Ambulance Servicer"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
              <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Women & Child Helpline</h1>
@@ -159,9 +159,9 @@
                     <p class="text-[#5C5C5C]">Help</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn  bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="109" data-name="Women & Child Helpline"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
              <div class="w-[437px] h-[360px p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Anti-Corruption Helpline</h1>
@@ -181,9 +181,9 @@
                     <p class="text-[#5C5C5C]">Govt.</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn  bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="106" data-name="Anti-Corruption Helpline"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -192,7 +192,7 @@
              <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Electricity Helpline</h1>
@@ -203,9 +203,9 @@
                     <p class="text-[#5C5C5C]">Electricity</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="16216" data-name="Electricity Helpline" ><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@
              <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/brac.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Brac Helpline</h1>
@@ -225,9 +225,9 @@
                     <p class="text-[#5C5C5C]">NGO</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg  hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn bg-[#00a63e] w-[183px] h-[40px] rounded-lg  text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="16445" data-name="Brac Helpline"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
              <div class="w-[437px] h-[360px] p-[30px]">
                 <div class="flex justify-between items-center pb-[16px]">
                     <img class="w-[32px] h-[32px]" src="./assets/Bangladesh-Railway.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fav-btn fa-regular fa-heart"></i>
                 </div>
                 <div class="pb-[24px]">
                     <h1 class="font-bold text-[24px]">Bangladesh Railway Helpline </h1>
@@ -247,29 +247,88 @@
                     <p class="text-[#5C5C5C]">Travel</p>
                 </div>
                 <div class="flex justify-between">
-                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg">Copy</button>
+                    <button class="bg-[skyblue] w-[183px] h-[40px] rounded-lg hover:bg-blue-400 hover:scale-105 transition duration-300">Copy</button>
                 <div class="">
-                    <button class="bg-[#00a63e] w-[183px] h-[40px] rounded-lg flex justify-center items-center gap-2 font-bold"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button class="call-btn bg-[#00a63e] w-[183px] h-[40px] rounded-lg text-white hover:bg-[#00a63e] hover:scale-105 transition duration-300 flex justify-center items-center gap-2 font-bold" data-number="163" data-name="Bangladesh Railway Helpline"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
             </div>
         </div>
 
         
-        <!-- right cart -->
+        
 
-        <div class="w-[400px] h-[1140px] flex justify-between mt-[20px] p-[10px]">
-            <div class="flex gap-2  text-[20px]">
-                <i class="fa-regular fa-clock mt-1 text-[#5C5C5C]"></i>
-                <div class="font-bold text-[20px] ">
-                    <p class="">Call History</p>
-                </div>
+        <div class="w-[400px] h-[1140px] mt-[20px] p-[10px]">
+  
+            <div class="flex items-center justify-between">
+
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-clock text-[#5C5C5C]"></i>
+                <p class="font-bold text-[20px]">Call History</p>
             </div>
-            
-            <div class="h-[40px] w-[104px] flex justify-center  text-center bg-[#00A63E] rounded-lg  text-white ">
-                <button>Clear</button>
+
+             <button id="clearHistory" 
+                class="h-[40px] w-[104px] bg-[#00A63E] rounded-lg text-white hover:bg-[#009635] hover:scale-105 transition duration-300">
+                Clear
+                </button>
             </div>
-        </div>
+
+  
+  <ul id="callHistory" class="list-disc pl-6 mt-4 text-[16px] text-[#333]">
+   
+  </ul>
+</div>
       </div>
+
+     <script>
+        let favCount = 0;
+        const favCountElement = document.getElementById("favCount");
+        const favButtons = document.querySelectorAll(".fav-btn");
+         
+        favButtons.forEach( btn => {
+            btn.addEventListener("click", () =>{
+                favCount ++;
+                favCountElement.textContent = favCount;
+
+                
+            });
+        });
+        let coins = 100;
+        const coinElement = document.getElementById("coinBalance");
+        const callButtons = document.querySelectorAll(".call-btn");
+        const callHistory = document.getElementById("callHistory");
+        const clearHistoryBtn = document.querySelector(".clear-btn");
+
+
+        callButtons.forEach(btn =>{
+            btn.addEventListener("click", () =>{
+                const serviceName = btn.getAttribute("data-name");
+                const serviceNumber = btn.getAttribute("data-number");
+
+                if (coins <20){
+                    alert("Not enough coins! You need at least 20 coins to call");
+                    return;
+                }
+
+                coins -= 20;
+                coinElement.textContent =coins
+
+                alert(`${serviceName} at ${serviceNumber}\nRemaining Coins: ${coins}`);
+
+                const li = document.createElement("li");
+                li.textContent =`${serviceName} (${serviceNumber})`;
+                callHistory.appendChild(li);
+
+               
+            });
+        });
+
+        document.getElementById("clearHistory").addEventListener("click", () =>{
+            callHistory.innerHTML = "";
+        });
+
+
+        
+     </script>
 </body>
 </html>
